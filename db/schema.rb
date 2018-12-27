@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "num_of_employees"
     t.boolean "still_in_business"
     t.datetime "opening_time"
-    t.string "ending_time"
+    t.datetime "ending_time"
   end
 
   create_table "costumes", force: :cascade do |t|
